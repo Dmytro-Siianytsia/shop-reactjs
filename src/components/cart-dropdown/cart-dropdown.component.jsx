@@ -1,13 +1,14 @@
-import './cart-dropdown.styles.scss'
+import "./cart-dropdown.styles.scss";
 
-import CustomButton from '../button/custom-button.component'
+import CustomButton from "../button/custom-button.component";
 
 const CartDropdown = () => (
-	<div className='cart-dropdown'>
-		<div className='cart-items'>
-			<CustomButton>GO TO CHECKOUT</CustomButton>
-		</div>
-	</div>
-)
+  <div className='cart-dropdown'>
+    <div className='cart-items'>
 
-export default CartDropdown
+		</div>    
+    <CustomButton>GO TO CHECKOUT</CustomButton>
+  </div>
+);
+
+export default CartDropdown;
