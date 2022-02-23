@@ -48,10 +48,6 @@ class SignUp extends Component {
     this.setState({ [name]: value });
   };
 
-  componentDidMount() {}
-
-  componentWillUnmount() {}
-
   render() {
     const { displayName, email, password, confirmPassword } = this.state;
     return (
